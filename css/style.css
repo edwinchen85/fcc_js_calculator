@@ -1,0 +1,76 @@
+* { box-sizing: border-box; }
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  height: 100vh;
+  background: url(../image/js-calc-bg.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: white;
+  font-weight: normal;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,.5);
+  margin-bottom: 3rem;
+}
+
+input {
+  outline: none;
+}
+
+#calculator {
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: center;
+  background: lightgray;
+  width: 250px;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 10px rgba(0,0,0,.3);
+}
+
+#display {
+  margin-bottom: 20px;
+  padding: 10px 10px 6px;
+  width: 90%;
+  background: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 1.5rem;
+  color: #555;
+}
+
+.row {
+  width: 90%;
+  margin: 0 auto 10px;
+  text-align: center;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.keys {
+  width: 22%;
+  display: inline-block;
+  text-align: center;
+  padding: 5px 0 3px;
+  border: none;
+  border-radius: 3px;
+}
+
+.equal {
+  width: 48%;
+  border: none;
+  border-radius: 3px;
+}
